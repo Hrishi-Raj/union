@@ -39,7 +39,7 @@ void Union(int x,int y)
 
 int cycle()
 {
-    for(int i=0;i<nodes;i++)
+    for(int i=0;i<=nodes;i++)
        temp[i]=-1;
 
     for(int i=1;i<=nodes;i++)
